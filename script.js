@@ -62,17 +62,17 @@ function CreateControlButton() {
   var btn = document.createElement("BUTTON");
   btn.innerHTML = "NEXT";
   document.body.appendChild(btn);
+  	let i = 0
   btn.addEventListener("click", function() {
   	
-  		var coloredRow = document.getElementsByClassName("tr-class")	
+  		
  		var coloredCol = document.getElementsByClassName("td-class")
- 	
-
+ 		
+ 		
+ 		coloredCol[i].style.backgroundColor="black"
+ 		i++
  		
 
-
- 			coloredRow[4].style.backgroundColor = "black"
- 			coloredCol[1].style.backgroundColor = "red"
  			
  				
   	
